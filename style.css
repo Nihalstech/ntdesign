@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(90deg, #00ffff, #B1B9D6);
+}
+.img {
+  height: 70px;
+  width: 70px;
+  border-radius: 80px;
+}
+#container{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+#navbar{
+  background: linear-gradient(90deg,#00ffff, #B1B9D6);
+}
+#a{
+  font-family: 'Ubuntu', sans-serif;
+}
+#a:hover{
+  border-bottom: 3px solid;
+  border-radius: 5px;
+  transition: .2s;
+}
