@@ -1,13 +1,18 @@
-@media only screen and (max-width: 600px) {
-  nav{
+@media only screen and (max-width: 775px) {
+  .navbar {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px;
   }
 }
-@media only screen and (max-width: 600px) {
-   .welcome{
+@media only screen and (min-width: 1000px) {
+  nav ul {
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 775px) {
+  .welcome {
     flex-direction: column-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
