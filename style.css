@@ -1,30 +1,19 @@
-/* including fonts link */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&display=swap');
-
-/* css rest */
 
 *{
   margin: 0;
   padding: 0;
 }
 
-header{
+header {
   height: 100vh;
   background: linear-gradient(135deg, #1ADEB8, #B000FF);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 85%,0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
   overflow: hidden;
 }
 
-.logo img{
-  height: 80px;
-  width: 80px;
-  border-radius: 80px;
-  margin-top: 4px;
-}
-
-nav{
+nav {
   display: flex;
   align-items: center;
   background: linear-gradient(135deg, #1ADEB8, #B000FF);
@@ -32,22 +21,26 @@ nav{
   font-weight: 400;
 }
 
-nav ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.logo img{
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
 }
+
+nav ul{
+ display: flex;
+}
+
 nav ul li{
   list-style: none;
-  padding: 6px;
-  font-size: 18px;
+  padding: 5px;
 }
 
 nav ul li a{
   text-decoration: none;
   color: white;
-  margin-left: auto;
 }
+
 
 nav ul a:hover {
   border-bottom: 3px solid black;
@@ -55,36 +48,28 @@ nav ul a:hover {
   transition: .5s;
 }
 
-.span1{
+.span1 {
   padding-top: 20px;
   padding-left: 20px;
   color: #E9ED1A;
-  font-size: 30px;
-  font-family: 'Baloo Bhaina 2', cursive;
-  font-weight: 500;
+  font-size: 25px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
-.span2{
-  /* border: 2px solid black;
-  padding-top: 10px; */
+.span2 {
+  /* border: 2px solid black;*/
   font-size: 23px;
-  font-family: 'Ubuntu', sans-serif;
   color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
 }
 
 .welcome{
   display: flex;
 }
-.welcome img{
+.welcome-left img {
   height: 300px;
   width: 280px;
   margin: 0 130px;
   padding-top: 20px;
-}
-
-.welcome p{
- /*  border: 2px solid black; */
-  padding-top: 18px;
-  padding-left: 27px;
-  padding-right: 20px;
 }
